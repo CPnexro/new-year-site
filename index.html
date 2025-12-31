@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy New Year</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎉 New Year Question 🎉</h1>
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="start()">START</button>
+
+    <div id="questionBox">
+      <p>Do you have a girlfriend?</p>
+      <div class="yesno">
+        <button onclick="answer()">YES</button>
+        <button onclick="answer()">NO</button>
+      </div>
+    </div>
+
+    <div id="output"></div>
+
+    <video id="video" playsinline></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
